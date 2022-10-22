@@ -15,6 +15,7 @@ stage('ContinuousDeploy_master_vrushabh')
     stage('ContinuousTesting_master_vrushabh')
          {
          sh 'echo "test passed"'
+         input 'please approve'
         }
      stage('ContinuousDeploy_master_vrushabh')
          {
