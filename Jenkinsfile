@@ -2,7 +2,7 @@ node('master')
 
 {
 
-stage('ContinuousDownload_master_edit')
+stage('ContinuousDownload_master_vrushabh')
 
          {
 
@@ -10,7 +10,7 @@ stage('ContinuousDownload_master_edit')
 
         }
 
-stage('Continuousbuild_master_edit')
+stage('Continuousbuild_master_vrushabh')
 
          {
 
